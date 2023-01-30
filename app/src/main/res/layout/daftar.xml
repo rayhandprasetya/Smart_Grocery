@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/white"
+    android:orientation="vertical"
+
     tools:context=".login">
 
     <ScrollView
@@ -33,8 +34,35 @@
                 android:layout_marginTop="50dp"
                 android:fontFamily="@font/opensans"
                 android:textStyle="bold"
-                android:text="Masuk ke akun belapin"
+                android:text="Ayo join belapin!"
                 android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="25dp"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#000000"
+                android:fontFamily="@font/opensans"
+                android:textStyle="bold"
+                android:text="Nama"/>
+
+            <EditText
+                android:id="@+id/daftar_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:inputType="text"
+                android:textColor="#8D8D8D"
+                android:fontFamily="@font/opensans"
+                android:hint="Masukkan nama"
+                android:textSize="15sp"
+                android:padding="15dp"
+                android:background="@drawable/textbox"/>
 
             <TextView
                 android:id="@+id/email"
@@ -97,7 +125,7 @@
                 android:layout_marginTop="30dp"
                 android:layout_gravity="center"
                 android:backgroundTint="#3CED97"
-                android:text="Masuk"
+                android:text="Daftar"
                 android:textColor="#FFFFFF"
                 android:fontFamily="@font/opensans"
                 android:textStyle="bold"
@@ -108,15 +136,15 @@
                 android:id="@+id/daftar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/belum_punya_akun_daftar"
+                android:text="@string/sudah_punya_akun_masuk"
                 android:textSize="15sp"
                 android:layout_gravity="center"
-                android:layout_marginTop="90dp"
-                android:layout_marginBottom="110dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
                 android:fontFamily="@font/opensans" />
 
         </LinearLayout>
 
     </ScrollView>
 
-</ScrollView>
+</LinearLayout>

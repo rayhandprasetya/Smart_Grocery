@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Smart Grocery</string>
+    <string name="sudah_punya_akun_masuk">Sudah punya akun? <b>Masuk</b></string>
+    <string name="belum_punya_akun_daftar">Belum punya akun? <b>Daftar</b></string>
 </resources>

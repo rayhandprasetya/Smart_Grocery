@@ -26,7 +26,7 @@
                 android:layout_marginTop="80dp" />
 
             <TextView
-                android:id="@+id/masuk"
+                android:id="@+id/ayo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
@@ -120,6 +120,7 @@
 
             <Button
                 android:id="@+id/login_button"
+                android:onClick="cekDaftar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
@@ -133,7 +134,7 @@
                 android:background="@drawable/textbox" />
 
             <TextView
-                android:id="@+id/daftar"
+                android:id="@+id/masuk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/sudah_punya_akun_masuk"

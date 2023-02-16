@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TambahBarang">
+
+    <EditText
+        android:id="@+id/nama_barang"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nama Barang: "
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/harga_barang"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Harga Barang: "
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:importantForAutofill="no"/>
+
+    <Button
+        android:id="@+id/simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Tambah"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

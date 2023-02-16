@@ -17,16 +17,19 @@
         android:theme="@style/AppTheme.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".daftar"
+            android:name=".TambahBarang"
+            android:exported="false" />
+        <activity
+            android:name=".Daftar"
             android:exported="false" />
         <activity
             android:name=".mainpage"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".Login"
             android:exported="false" />
         <activity
-            android:name=".splash"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "315016227561",
+    "project_id": "belapin-31554",
+    "storage_bucket": "belapin-31554.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315016227561:android:e5eec06fc79edcf5fbde78",
+        "android_client_info": {
+          "package_name": "com.example.smartgrocery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315016227561-9a4dvv902nvpkbl7281njooo8g5o9jaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASAs583mBEOrOvOA6dClp5p1HLRNJqWSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315016227561-9a4dvv902nvpkbl7281njooo8g5o9jaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
